@@ -1,0 +1,244 @@
+/* ===========================
+   LexMind AI Premium Theme
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family:'Inter',sans-serif;
+    transition:.25s ease;
+}
+
+html,body,[class*="css"]{
+    background:#0b1120;
+    color:#fff;
+}
+
+/* Hide Streamlit */
+#MainMenu{
+    visibility:hidden;
+}
+footer{
+    visibility:hidden;
+}
+header{
+    visibility:hidden;
+}
+
+.block-container{
+    padding-top:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    max-width:100%;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid rgba(255,255,255,.06);
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+.sidebar-title{
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.sidebar-item{
+    background:#1f2937;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+
+.sidebar-item:hover{
+    background:#6d28d9;
+}
+
+/* Header */
+
+.header-card{
+    background:#111827;
+    border-radius:18px;
+    padding:25px;
+    border:1px solid rgba(255,255,255,.05);
+}
+
+.title{
+    font-size:36px;
+    font-weight:700;
+}
+
+.subtitle{
+    color:#9ca3af;
+    margin-top:6px;
+}
+
+/* Badge */
+
+.online{
+    display:inline-block;
+    background:#10b981;
+    color:white;
+    padding:6px 16px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+}
+
+/* Chat */
+
+.user-box{
+    background:#4f46e5;
+    padding:18px;
+    border-radius:16px;
+    margin-top:20px;
+    margin-left:25%;
+}
+
+.ai-box{
+    background:#1e293b;
+    padding:20px;
+    border-radius:18px;
+    margin-top:15px;
+    border:1px solid rgba(255,255,255,.05);
+}
+
+/* Sources */
+
+.source-card{
+    background:#111827;
+    border-radius:15px;
+    padding:16px;
+    border:1px solid rgba(255,255,255,.06);
+    margin-top:15px;
+}
+
+.source-card:hover{
+    border:1px solid #7c3aed;
+    transform:translateY(-3px);
+}
+
+/* Buttons */
+
+.stButton>button{
+    background:#7c3aed;
+    color:white;
+    border:none;
+    border-radius:12px;
+    padding:12px 20px;
+    font-weight:600;
+}
+
+.stButton>button:hover{
+    background:#8b5cf6;
+}
+
+/* Input */
+
+.stChatInput{
+    position:fixed;
+    bottom:20px;
+    left:350px;
+    right:30px;
+}
+
+.stChatInput textarea{
+    background:#111827!important;
+    color:white!important;
+    border:1px solid rgba(255,255,255,.08)!important;
+    border-radius:18px!important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#6d28d9;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111827;
+}
+
+/* Cards */
+
+.card{
+    background:#111827;
+    border-radius:18px;
+    padding:20px;
+    border:1px solid rgba(255,255,255,.06);
+    margin-top:20px;
+}
+
+.card-title{
+    font-size:18px;
+    font-weight:600;
+}
+
+.card-text{
+    color:#9ca3af;
+    margin-top:8px;
+}
+
+/* Animations */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(15px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.header-card,
+.card,
+.ai-box,
+.user-box,
+.source-card{
+    animation:fadeIn .5s ease;
+}
+
+/* Links */
+
+a{
+    color:#a78bfa;
+    text-decoration:none;
+}
+
+a:hover{
+    color:white;
+}
+
+/* Expander */
+
+.streamlit-expanderHeader{
+    background:#111827!important;
+    border-radius:12px!important;
+}
+
+.streamlit-expanderContent{
+    background:#0f172a!important;
+}
+
+/* Divider */
+
+hr{
+    border:none;
+    height:1px;
+    background:rgba(255,255,255,.08);
+    margin:20px 0;
+}
