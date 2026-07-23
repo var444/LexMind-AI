@@ -137,6 +137,27 @@ streamlit run app.py
 - Advanced filtering
 
 ---
+---
+
+## 📸 Application Preview
+
+### 🏠 Home Screen
+
+![Home Screen](assets/screenshots/home.jpg)
+
+---
+
+### 💬 Chat Interface
+
+![Chat Interface](assets/screenshots/chat.jpg)
+
+---
+
+### 📚 Source References
+
+![Source References](assets/screenshots/sources.jpg)
+
+---
 
 ## 👨‍💻 Author
 
