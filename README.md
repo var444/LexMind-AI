@@ -141,10 +141,7 @@ streamlit run app.py
 
 ## 📸 Application Preview
 
-![Home Screen](...)
-![Chat Interface](...)
-![Source References](...)
----
+...
 
 ## 👨‍💻 Author
 
