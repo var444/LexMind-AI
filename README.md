@@ -141,22 +141,9 @@ streamlit run app.py
 
 ## 📸 Application Preview
 
-### 🏠 Home Screen
-
-![Home Screen](assets/screenshots/home.jpg)
-
----
-
-### 💬 Chat Interface
-
-![Chat Interface](assets/screenshots/chat.jpg)
-
----
-
-### 📚 Source References
-
-![Source References](assets/screenshots/sources.jpg)
-
+![Home Screen](...)
+![Chat Interface](...)
+![Source References](...)
 ---
 
 ## 👨‍💻 Author
