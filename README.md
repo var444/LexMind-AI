@@ -141,9 +141,17 @@ streamlit run app.py
 
 ## 📸 Application Preview
 
-...
+### 🏠 Home Screen
 
-## 👨‍💻 Author
+![Home Screen](assets/screenshots/home.png)
+
+### 💬 Chat Interface
+
+![Chat Interface](assets/screenshots/chat.png)
+
+### 📚 Source References
+
+![Source References](assets/screenshots/sources.png)
 
 **Varun Rathore**
 
